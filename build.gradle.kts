@@ -17,6 +17,7 @@ repositories {
 
 dependencies {
     paperDevBundle("1.17.1-R0.1-SNAPSHOT") // 원하는 Paper 버전
+    implementation(fileTree("libs") { include("*.jar") })
 }
 
 extra.apply {
